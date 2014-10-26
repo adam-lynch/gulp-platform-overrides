@@ -15,7 +15,7 @@ var platformOverrides = require('gulp-platform-overrides');
 
 gulp.task('prepare', function() {
     gulp.src('./package.json')
-        .pipe(platformOverrides({platform: 'osx'})
+        .pipe(platformOverrides({platform: 'osx'}) // if platform is missing, then it is auto-detected
         .pipe(gulp.dest('./dist'));
 });
 
