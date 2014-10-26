@@ -18,7 +18,10 @@ module.exports = (options) ->
             cb new PluginError pluginName, 'Streaming not supported'
             return
 
-        args = _.clone options, true
+        if options
+            args = _.clone options, true
+        else
+            args = {}
         args.options = file.contents.toString()
 
         self = this
