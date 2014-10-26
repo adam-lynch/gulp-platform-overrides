@@ -5,7 +5,7 @@ A [Gulp](http://github.com/gulpjs/gulp) plugin for applying platform-specific ma
 
 # Installation
 ```js
-npm install gulp-platform-overrrides
+npm install gulp-platform-overrides
 ```
 
 # Usage
