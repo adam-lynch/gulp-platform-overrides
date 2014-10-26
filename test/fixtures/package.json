@@ -1,0 +1,17 @@
+{
+    "name": "nw-demo",
+    "version": "0.1.0",
+    "main": "index.html",
+    "window": {
+        "frame": false,
+        "toolbar": false
+    },
+    "platformOverrides": {
+        "osx": {
+            "main": "other.html",
+            "window": {
+                "frame": true
+            }
+        }
+    }
+}

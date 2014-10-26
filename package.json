@@ -1,0 +1,45 @@
+{
+  "name": "gulp-platform-overrides",
+  "version": "0.0.1",
+  "description": "A Gulp plugin for applying platform-specific manifest values",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adam-lynch/gulp-platform-overrides"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "gulpplugin",
+    "json",
+    "manifest",
+    "platform",
+    "overrides",
+    "node-webkit"
+  ],
+  "author": "Adam Lynch <contact@adamlynch.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adam-lynch/gulp-platform-overrides/issues"
+  },
+  "homepage": "https://github.com/adam-lynch/gulp-platform-overrides",
+  "dependencies": {
+    "gulp-util": "^3.0.1",
+    "through2": "^0.6.3",
+    "platform-overrides": "~0.3.0",
+    "lodash": "~2.4.1"
+  },
+  "engines": {
+    "node": ">=0.9"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "coffee-script": "~1.8.0",
+    "gulp": "~3.8.9",
+    "gulp-load-plugins": "~0.7.0",
+    "gulp-coffee": "~2.2.0",
+    "gulp-mocha": "~1.1.1",
+    "glob-to-vinyl": "0.0.1"
+  }
+}
