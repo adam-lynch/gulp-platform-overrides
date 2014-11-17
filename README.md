@@ -1,5 +1,9 @@
-gulp-platform-overrides [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][depstat-image]][depstat-url]
-=====================
+gulp-platform-overrides 
+==========
+
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Windows Build Status][appveyor-image]][appveyor-url] [![Dependency Status][depstat-image]][depstat-url] 
+
+---
 
 A [Gulp](http://github.com/gulpjs/gulp) plugin for applying platform-specific manifest values. Simply a Gulp wrapper for [platform-overrides](http://github.com/adam-lynch/platform-overrides).
 
@@ -86,6 +90,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 [travis-url]: http://travis-ci.org/adam-lynch/gulp-platform-overrides
 [travis-image]: http://img.shields.io/travis/adam-lynch/gulp-platform-overrides.svg?style=flat
+
+[appveyor-url]: https://ci.appveyor.com/project/adam-lynch/gulp-platform-overrides/branch/master
+[appveyor-image]: https://ci.appveyor.com/api/projects/status/ok9243bf4q7mom55/branch/master?svg=true
 
 [depstat-url]: https://david-dm.org/adam-lynch/gulp-platform-overrides
 [depstat-image]: https://david-dm.org/adam-lynch/gulp-platform-overrides.svg?style=flat
