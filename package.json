@@ -1,6 +1,6 @@
 {
   "name": "gulp-platform-overrides",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "A Gulp plugin for applying platform-specific manifest values",
   "main": "index.js",
   "repository": {
@@ -27,7 +27,7 @@
   "dependencies": {
     "gulp-util": "^3.0.1",
     "through2": "^0.6.3",
-    "platform-overrides": "~0.3.0",
+    "platform-overrides": "~1.0.0",
     "lodash": "~2.4.1"
   },
   "engines": {
